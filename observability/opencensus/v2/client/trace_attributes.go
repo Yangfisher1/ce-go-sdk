@@ -8,7 +8,7 @@ package client
 import (
 	"github.com/Yangfisher1/ce-go-sdk/v2/event"
 	"github.com/Yangfisher1/ce-go-sdk/v2/observability"
-	"go.opencensus.io/trace"
+	"github.com/Yangfisher1/opencensus-go/trace"
 )
 
 func EventTraceAttributes(e event.EventReader) []trace.Attribute {

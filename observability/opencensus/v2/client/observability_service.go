@@ -12,7 +12,7 @@ import (
 	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
 	"github.com/Yangfisher1/ce-go-sdk/v2/client"
 	"github.com/Yangfisher1/ce-go-sdk/v2/observability"
-	"go.opencensus.io/trace"
+	"github.com/Yangfisher1/opencensus-go/trace"
 
 	"github.com/Yangfisher1/ce-go-sdk/v2/protocol"
 )
