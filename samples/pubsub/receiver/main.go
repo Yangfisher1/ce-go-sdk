@@ -11,10 +11,10 @@ import (
 	"log"
 	"os"
 
-	cepubsub "github.com/cloudevents/sdk-go/protocol/pubsub/v2"
-	pscontext "github.com/cloudevents/sdk-go/protocol/pubsub/v2/context"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/event"
+	cepubsub "github.com/Yangfisher1/ce-go-sdk/protocol/pubsub/v2"
+	pscontext "github.com/Yangfisher1/ce-go-sdk/protocol/pubsub/v2/context"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
 	"github.com/kelseyhightower/envconfig"
 )
 

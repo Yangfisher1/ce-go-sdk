@@ -9,8 +9,8 @@ import (
 	"errors"
 	"strings"
 
-	cesql "github.com/cloudevents/sdk-go/sql/v2"
-	"github.com/cloudevents/sdk-go/sql/v2/function"
+	cesql "github.com/Yangfisher1/ce-go-sdk/sql/v2"
+	"github.com/Yangfisher1/ce-go-sdk/sql/v2/function"
 )
 
 type functionItem struct {

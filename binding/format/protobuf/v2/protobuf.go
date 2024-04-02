@@ -14,11 +14,11 @@ import (
 	"google.golang.org/protobuf/types/known/anypb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/cloudevents/sdk-go/v2/binding/format"
-	"github.com/cloudevents/sdk-go/v2/event"
-	"github.com/cloudevents/sdk-go/v2/types"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding/format"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/v2/types"
 
-	"github.com/cloudevents/sdk-go/binding/format/protobuf/v2/internal/pb"
+	"github.com/Yangfisher1/ce-go-sdk/binding/format/protobuf/v2/internal/pb"
 )
 
 const (

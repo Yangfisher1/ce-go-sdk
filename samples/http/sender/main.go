@@ -9,8 +9,8 @@ import (
 	"context"
 	"log"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	cehttp "github.com/cloudevents/sdk-go/v2/protocol/http"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	cehttp "github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
 )
 
 func main() {
@@ -29,7 +29,7 @@ func main() {
 	for i := 0; i < 10; i++ {
 		e := cloudevents.NewEvent()
 		e.SetType("com.cloudevents.sample.sent")
-		e.SetSource("https://github.com/cloudevents/sdk-go/v2/samples/httpb/sender")
+		e.SetSource("https://github.com/Yangfisher1/ce-go-sdk/v2/samples/httpb/sender")
 		_ = e.SetData(cloudevents.ApplicationJSON, map[string]interface{}{
 			"id":      i,
 			"message": "Hello, World!",

@@ -11,9 +11,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	. "github.com/cloudevents/sdk-go/v2/protocol/test"
-	. "github.com/cloudevents/sdk-go/v2/test"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	. "github.com/Yangfisher1/ce-go-sdk/v2/protocol/test"
+	. "github.com/Yangfisher1/ce-go-sdk/v2/test"
 )
 
 func TestEvent(t *testing.T) {

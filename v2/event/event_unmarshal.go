@@ -14,7 +14,7 @@ import (
 
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/cloudevents/sdk-go/v2/types"
+	"github.com/Yangfisher1/ce-go-sdk/v2/types"
 )
 
 const specVersionV03Flag uint8 = 1 << 4

@@ -6,7 +6,7 @@
 package spec
 
 import (
-	"github.com/cloudevents/sdk-go/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
 )
 
 type matchExactVersion struct {

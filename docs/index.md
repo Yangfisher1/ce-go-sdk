@@ -25,13 +25,13 @@ _Note:_ Supported
 Add the module as dependency using go mod:
 
 ```
-% go get github.com/cloudevents/sdk-go/v2@v2.6.0
+% go get github.com/Yangfisher1/ce-go-sdk/v2@v2.6.0
 ```
 
 And import the module in your code
 
 ```go
-import cloudevents "github.com/cloudevents/sdk-go/v2"
+import cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 ```
 
 ## Send your first CloudEvent
@@ -107,21 +107,21 @@ err := json.Unmarshal(bytes, &event)
 |                                                                                         | [v0.3](https://github.com/cloudevents/spec/tree/v0.3) | [v1.0](https://github.com/cloudevents/spec/tree/v1.0) |
 | --------------------------------------------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
 | CloudEvents Core                                                                        | :heavy_check_mark:                                    | :heavy_check_mark:                                    |
-| [AMQP Protocol Binding](https://github.com/cloudevents/sdk-go/tree/main/samples/amqp)   | :heavy_check_mark:                                    | :heavy_check_mark:                                    |
+| [AMQP Protocol Binding](https://github.com/Yangfisher1/ce-go-sdk/tree/main/samples/amqp)   | :heavy_check_mark:                                    | :heavy_check_mark:                                    |
 | AVRO Event Format                                                                       | :x:                                                   | :x:                                                   |
-| [HTTP Protocol Binding](https://github.com/cloudevents/sdk-go/tree/main/samples/http)   | :heavy_check_mark:                                    | :heavy_check_mark:                                    |
+| [HTTP Protocol Binding](https://github.com/Yangfisher1/ce-go-sdk/tree/main/samples/http)   | :heavy_check_mark:                                    | :heavy_check_mark:                                    |
 | [JSON Event Format](event_data_structure.md#marshalunmarshal-event-to-json)             | :heavy_check_mark:                                    | :heavy_check_mark:                                    |
-| [Kafka Protocol Binding](https://github.com/cloudevents/sdk-go/tree/main/samples/kafka) | :heavy_check_mark:                                    | :heavy_check_mark:                                    |
+| [Kafka Protocol Binding](https://github.com/Yangfisher1/ce-go-sdk/tree/main/samples/kafka) | :heavy_check_mark:                                    | :heavy_check_mark:                                    |
 | MQTT Protocol Binding                                                                   | :x:                                                   | :x:                                                   |
-| [NATS Protocol Binding](https://github.com/cloudevents/sdk-go/tree/main/samples/nats)   | :heavy_check_mark:                                    | :heavy_check_mark:                                    |
-| [STAN Protocol Binding](https://github.com/cloudevents/sdk-go/tree/main/samples/stan)   | :heavy_check_mark:                                    | :heavy_check_mark:                                    |
+| [NATS Protocol Binding](https://github.com/Yangfisher1/ce-go-sdk/tree/main/samples/nats)   | :heavy_check_mark:                                    | :heavy_check_mark:                                    |
+| [STAN Protocol Binding](https://github.com/Yangfisher1/ce-go-sdk/tree/main/samples/stan)   | :heavy_check_mark:                                    | :heavy_check_mark:                                    |
 | Web hook                                                                                | :x:                                                   | :x:                                                   |
 
 ## Go further
 
 _. Check out the
-[examples](https://github.com/cloudevents/sdk-go/tree/main/samples) _. Dig into
-the [Godoc](https://godoc.org/github.com/cloudevents/sdk-go/v2) _. Learn about
+[examples](https://github.com/Yangfisher1/ce-go-sdk/tree/main/samples) _. Dig into
+the [Godoc](https://godoc.org/github.com/Yangfisher1/ce-go-sdk/v2) _. Learn about
 the [architecture and concepts](concepts.md) of the SDK _. How to use the
 [CloudEvent in-memory representation](event_data_structure.md) \*. How to
 use/implement a [Protocol Binding](protocol_implementations.md)

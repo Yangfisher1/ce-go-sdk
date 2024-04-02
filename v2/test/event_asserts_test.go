@@ -8,8 +8,8 @@ package test
 import (
 	"testing"
 
-	"github.com/cloudevents/sdk-go/v2/binding/spec"
-	"github.com/cloudevents/sdk-go/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding/spec"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
 )
 
 func TestAssertEvent(t *testing.T) {

@@ -20,13 +20,13 @@ import (
 	"go.opentelemetry.io/otel/propagation"
 	"go.opentelemetry.io/otel/trace"
 
-	otelObs "github.com/cloudevents/sdk-go/observability/opentelemetry/v2/client"
-	obshttp "github.com/cloudevents/sdk-go/observability/opentelemetry/v2/http"
-	"github.com/cloudevents/sdk-go/v2/client"
-	event "github.com/cloudevents/sdk-go/v2/event"
-	"github.com/cloudevents/sdk-go/v2/protocol"
-	cehttp "github.com/cloudevents/sdk-go/v2/protocol/http"
-	"github.com/cloudevents/sdk-go/v2/types"
+	otelObs "github.com/Yangfisher1/ce-go-sdk/observability/opentelemetry/v2/client"
+	obshttp "github.com/Yangfisher1/ce-go-sdk/observability/opentelemetry/v2/http"
+	"github.com/Yangfisher1/ce-go-sdk/v2/client"
+	event "github.com/Yangfisher1/ce-go-sdk/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/v2/protocol"
+	cehttp "github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
+	"github.com/Yangfisher1/ce-go-sdk/v2/types"
 )
 
 func TestTracedClientReceive(t *testing.T) {

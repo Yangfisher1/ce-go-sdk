@@ -15,11 +15,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"sigs.k8s.io/yaml"
 
-	"github.com/cloudevents/sdk-go/sql/v2/parser"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/binding/spec"
-	"github.com/cloudevents/sdk-go/v2/event"
-	"github.com/cloudevents/sdk-go/v2/test"
+	"github.com/Yangfisher1/ce-go-sdk/sql/v2/parser"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding/spec"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/v2/test"
 )
 
 var TCKFileNames = []string{

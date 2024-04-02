@@ -17,7 +17,7 @@ if [ ! -f $COVERAGE ]; then
   touch ./coverage.tmp
   echo 'mode: atomic' > $COVERAGE
 fi
-COVERPKG="github.com/cloudevents/sdk-go/observability/opentelemetry/v2/..."
+COVERPKG="github.com/Yangfisher1/ce-go-sdk/observability/opentelemetry/v2/..."
 for gomodule in $(go list ./... | grep -v /cmd | grep -v /vendor)
 do
   go test -v -timeout 30s -race -covermode=atomic -coverprofile=coverage.tmp -coverpkg "$COVERPKG" "$gomodule" 2>&1 | sed 's/ of statements in.*//; /warning: no packages being tested depend on matches for pattern /d'

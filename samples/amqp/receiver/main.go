@@ -15,8 +15,8 @@ import (
 
 	"github.com/Azure/go-amqp"
 
-	ceamqp "github.com/cloudevents/sdk-go/protocol/amqp/v2"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	ceamqp "github.com/Yangfisher1/ce-go-sdk/protocol/amqp/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 )
 
 // Parse AMQP_URL env variable. Return server URL, AMQP node (from path) and SASLPlain

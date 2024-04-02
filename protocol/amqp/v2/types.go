@@ -5,7 +5,7 @@
 
 package amqp
 
-import "github.com/cloudevents/sdk-go/v2/types"
+import "github.com/Yangfisher1/ce-go-sdk/v2/types"
 
 func safeAMQPPropertiesUnwrap(val interface{}) (interface{}, error) {
 	v, err := types.Validate(val)

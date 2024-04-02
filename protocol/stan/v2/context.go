@@ -7,7 +7,8 @@ package stan
 
 import (
 	"context"
-	"github.com/cloudevents/sdk-go/v2/binding"
+
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
 )
 
 // MsgMetadata holds metadata of a received *stan.Msg. This information is kept in a separate struct so that users

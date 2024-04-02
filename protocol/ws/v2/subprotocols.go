@@ -10,7 +10,7 @@ import (
 
 	"nhooyr.io/websocket"
 
-	"github.com/cloudevents/sdk-go/v2/binding/format"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding/format"
 )
 
 const JsonSubprotocol = "cloudevents.json"

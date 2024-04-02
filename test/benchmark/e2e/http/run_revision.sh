@@ -61,7 +61,7 @@ else
       REVISION=results
 fi
 
-go build -o $RUNNABLE_NAME -v github.com/cloudevents/sdk-go/test/benchmark/http
+go build -o $RUNNABLE_NAME -v github.com/Yangfisher1/ce-go-sdk/test/benchmark/http
 
 mkdir -p "$REVISION"
 

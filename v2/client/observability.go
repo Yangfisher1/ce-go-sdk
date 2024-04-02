@@ -8,8 +8,8 @@ package client
 import (
 	"context"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
 )
 
 // ObservabilityService is an interface users can implement to record metrics, create tracing spans, and plug other observability tools in the Client

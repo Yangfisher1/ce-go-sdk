@@ -14,10 +14,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	protocolamqp "github.com/cloudevents/sdk-go/protocol/amqp/v2"
-	clienttest "github.com/cloudevents/sdk-go/v2/client/test"
-	"github.com/cloudevents/sdk-go/v2/event"
-	"github.com/cloudevents/sdk-go/v2/test"
+	protocolamqp "github.com/Yangfisher1/ce-go-sdk/protocol/amqp/v2"
+	clienttest "github.com/Yangfisher1/ce-go-sdk/v2/client/test"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/v2/test"
 )
 
 func TestSendEvent(t *testing.T) {

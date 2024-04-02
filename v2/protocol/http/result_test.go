@@ -13,7 +13,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/Yangfisher1/ce-go-sdk/v2/protocol"
 )
 
 func TestNil_Is(t *testing.T) {

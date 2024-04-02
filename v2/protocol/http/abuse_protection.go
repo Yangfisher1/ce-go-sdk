@@ -7,11 +7,12 @@ package http
 
 import (
 	"context"
-	cecontext "github.com/cloudevents/sdk-go/v2/context"
-	"go.uber.org/zap"
 	"net/http"
 	"strconv"
 	"strings"
+
+	cecontext "github.com/Yangfisher1/ce-go-sdk/v2/context"
+	"go.uber.org/zap"
 )
 
 type WebhookConfig struct {

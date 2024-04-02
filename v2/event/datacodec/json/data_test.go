@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	cej "github.com/cloudevents/sdk-go/v2/event/datacodec/json"
-	"github.com/cloudevents/sdk-go/v2/types"
+	cej "github.com/Yangfisher1/ce-go-sdk/v2/event/datacodec/json"
+	"github.com/Yangfisher1/ce-go-sdk/v2/types"
 	"github.com/google/go-cmp/cmp"
 )
 

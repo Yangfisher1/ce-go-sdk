@@ -10,12 +10,12 @@ import (
 
 	"go.opencensus.io/trace"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/client"
-	"github.com/cloudevents/sdk-go/v2/observability"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/client"
+	"github.com/Yangfisher1/ce-go-sdk/v2/observability"
 
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/Yangfisher1/ce-go-sdk/v2/protocol"
 )
 
 type opencensusObservabilityService struct{}

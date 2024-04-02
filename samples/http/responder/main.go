@@ -13,7 +13,7 @@ import (
 	"github.com/google/uuid"
 	"github.com/kelseyhightower/envconfig"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 )
 
 type envConfig struct {

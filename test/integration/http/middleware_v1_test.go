@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 )
 
 func TestClientMiddleware_binary_v1(t *testing.T) {

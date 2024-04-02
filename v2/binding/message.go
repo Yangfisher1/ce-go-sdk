@@ -8,7 +8,7 @@ package binding
 import (
 	"context"
 
-	"github.com/cloudevents/sdk-go/v2/binding/spec"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding/spec"
 )
 
 // MessageReader defines the read-related portion of the Message interface.
@@ -66,7 +66,7 @@ type MessageMetadataReader interface {
 
 // Message is the interface to a binding-specific message containing an event.
 //
-// Reliable Delivery
+// # Reliable Delivery
 //
 // There are 3 reliable qualities of service for messages:
 //

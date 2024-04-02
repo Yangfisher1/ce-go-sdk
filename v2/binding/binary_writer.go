@@ -9,7 +9,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/cloudevents/sdk-go/v2/binding/spec"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding/spec"
 )
 
 // MessageMetadataWriter is used to set metadata when a binary Message is visited.

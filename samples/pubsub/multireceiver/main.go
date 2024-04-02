@@ -12,9 +12,9 @@ import (
 	"os"
 	"strings"
 
-	cepubsub "github.com/cloudevents/sdk-go/protocol/pubsub/v2"
-	pscontext "github.com/cloudevents/sdk-go/protocol/pubsub/v2/context"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cepubsub "github.com/Yangfisher1/ce-go-sdk/protocol/pubsub/v2"
+	pscontext "github.com/Yangfisher1/ce-go-sdk/protocol/pubsub/v2/context"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 	"github.com/kelseyhightower/envconfig"
 )
 

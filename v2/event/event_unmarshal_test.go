@@ -16,8 +16,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cloudevents/sdk-go/v2/event"
-	"github.com/cloudevents/sdk-go/v2/types"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/v2/types"
 )
 
 func TestUnmarshal(t *testing.T) {

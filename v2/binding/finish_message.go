@@ -5,7 +5,7 @@
 
 package binding
 
-import "github.com/cloudevents/sdk-go/v2/binding/spec"
+import "github.com/Yangfisher1/ce-go-sdk/v2/binding/spec"
 
 type finishMessage struct {
 	Message

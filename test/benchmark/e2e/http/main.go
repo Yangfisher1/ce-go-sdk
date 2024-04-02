@@ -20,11 +20,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudevents/sdk-go/test/benchmark/e2e"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/binding/buffering"
-	http "github.com/cloudevents/sdk-go/v2/protocol/http"
+	"github.com/Yangfisher1/ce-go-sdk/test/benchmark/e2e"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding/buffering"
+	http "github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
 )
 
 var letters = []byte("ABCDEFGHIJKLMNOPQRSTUVWXYZ")

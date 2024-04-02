@@ -11,7 +11,7 @@ import (
 	"go.opencensus.io/plugin/ochttp"
 	"go.opencensus.io/plugin/ochttp/propagation/tracecontext"
 
-	cehttp "github.com/cloudevents/sdk-go/v2/protocol/http"
+	cehttp "github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
 )
 
 func roundtripperDecorator(roundTripper http.RoundTripper) http.RoundTripper {

@@ -12,10 +12,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/binding/format"
-	"github.com/cloudevents/sdk-go/v2/event"
-	"github.com/cloudevents/sdk-go/v2/test"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding/format"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/v2/test"
 )
 
 // MockStructuredMessage implements a structured-mode message as a simple struct.

@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	cex "github.com/cloudevents/sdk-go/v2/event/datacodec/xml"
-	"github.com/cloudevents/sdk-go/v2/types"
+	cex "github.com/Yangfisher1/ce-go-sdk/v2/event/datacodec/xml"
+	"github.com/Yangfisher1/ce-go-sdk/v2/types"
 	"github.com/google/go-cmp/cmp"
 )
 

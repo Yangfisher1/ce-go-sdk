@@ -14,12 +14,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cloudevents/sdk-go/v2/client"
+	"github.com/Yangfisher1/ce-go-sdk/v2/client"
 
 	"github.com/google/uuid"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	cehttp "github.com/cloudevents/sdk-go/v2/protocol/http"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	cehttp "github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
 )
 
 // Direct Test:

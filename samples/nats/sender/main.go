@@ -14,8 +14,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/kelseyhightower/envconfig"
 
-	cenats "github.com/cloudevents/sdk-go/protocol/nats/v2"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cenats "github.com/Yangfisher1/ce-go-sdk/protocol/nats/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 )
 
 const (
@@ -59,7 +59,7 @@ func main() {
 			e.SetID(uuid.New().String())
 			e.SetType("com.cloudevents.sample.sent")
 			e.SetTime(time.Now())
-			e.SetSource("https://github.com/cloudevents/sdk-go/v2/samples/sender")
+			e.SetSource("https://github.com/Yangfisher1/ce-go-sdk/v2/samples/sender")
 			_ = e.SetData(contentType, &Example{
 				Sequence: i,
 				Message:  fmt.Sprintf("Hello, %s!", contentType),

@@ -83,13 +83,13 @@ Manual Steps:
       ```shell
       tag=v2.1.0
       pushd protocol/stan/v2
-      go mod edit -dropreplace github.com/cloudevents/sdk-go/v2
-      go get -d github.com/cloudevents/sdk-go/v2@$tag
+      go mod edit -dropreplace github.com/Yangfisher1/ce-go-sdk/v2
+      go get -d github.com/Yangfisher1/ce-go-sdk/v2@$tag
       popd
       ```
 
       _NOTE_: to reverse the `dropreplace` command, run
-      `go mod edit -replace github.com/cloudevents/sdk-go/v2=../../../v2`
+      `go mod edit -replace github.com/Yangfisher1/ce-go-sdk/v2=../../../v2`
 
    1. Release each protocol with a new tag that lets go mod follow the tag to
       the source in the form `<path>/v<major>.<minor>.<patch>`, i.e.:
@@ -122,9 +122,9 @@ Manual Steps:
    ```shell
    tag=v2.1.0
    pushd sample/stan
-   go mod edit -dropreplace github.com/cloudevents/sdk-go/protocol/stan/v2
-   go get -d github.com/cloudevents/sdk-go/protocol/stan/v2@$tag
-   go mod edit -dropreplace github.com/cloudevents/sdk-go/v2
-   go get -d github.com/cloudevents/sdk-go/v2@$tag
+   go mod edit -dropreplace github.com/Yangfisher1/ce-go-sdk/protocol/stan/v2
+   go get -d github.com/Yangfisher1/ce-go-sdk/protocol/stan/v2@$tag
+   go mod edit -dropreplace github.com/Yangfisher1/ce-go-sdk/v2
+   go get -d github.com/Yangfisher1/ce-go-sdk/v2@$tag
    popd
    ```

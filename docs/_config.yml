@@ -8,6 +8,6 @@ plugins:
 
 aux_links:
   "GitHub Repository":
-    - "https://github.com/cloudevents/sdk-go"
+    - "https://github.com/Yangfisher1/ce-go-sdk"
   "CloudEvents home":
     - "https://cloudevents.io/"

@@ -7,9 +7,10 @@ package nats_jetstream
 
 import (
 	"context"
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/binding/format"
 	"io"
+
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding/format"
 )
 
 // WriteMsg fills the provided writer with the bindings.Message m.

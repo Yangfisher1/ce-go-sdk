@@ -14,10 +14,10 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cloudevents/sdk-go/protocol/kafka_sarama/v2"
-	clienttest "github.com/cloudevents/sdk-go/v2/client/test"
-	"github.com/cloudevents/sdk-go/v2/event"
-	"github.com/cloudevents/sdk-go/v2/test"
+	"github.com/Yangfisher1/ce-go-sdk/protocol/kafka_sarama/v2"
+	clienttest "github.com/Yangfisher1/ce-go-sdk/v2/client/test"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/v2/test"
 )
 
 const (

@@ -10,7 +10,7 @@ import (
 
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 
-	cehttp "github.com/cloudevents/sdk-go/v2/protocol/http"
+	cehttp "github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
 )
 
 // NewObservedHTTP creates an HTTP protocol with OTel trace propagating middleware.

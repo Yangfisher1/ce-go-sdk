@@ -14,14 +14,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/event"
-	bindings "github.com/cloudevents/sdk-go/v2/protocol"
-	"github.com/cloudevents/sdk-go/v2/protocol/http"
-	"github.com/cloudevents/sdk-go/v2/protocol/test"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
+	bindings "github.com/Yangfisher1/ce-go-sdk/v2/protocol"
+	"github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
+	"github.com/Yangfisher1/ce-go-sdk/v2/protocol/test"
 
-	. "github.com/cloudevents/sdk-go/v2/binding/test"
-	. "github.com/cloudevents/sdk-go/v2/test"
+	. "github.com/Yangfisher1/ce-go-sdk/v2/binding/test"
+	. "github.com/Yangfisher1/ce-go-sdk/v2/test"
 )
 
 func TestSendSkipBinary(t *testing.T) {

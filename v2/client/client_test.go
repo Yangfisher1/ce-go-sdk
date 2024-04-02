@@ -23,11 +23,11 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/cloudevents/sdk-go/v2/client"
-	"github.com/cloudevents/sdk-go/v2/event"
-	"github.com/cloudevents/sdk-go/v2/protocol"
-	cehttp "github.com/cloudevents/sdk-go/v2/protocol/http"
-	"github.com/cloudevents/sdk-go/v2/types"
+	"github.com/Yangfisher1/ce-go-sdk/v2/client"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/v2/protocol"
+	cehttp "github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
+	"github.com/Yangfisher1/ce-go-sdk/v2/types"
 )
 
 var (

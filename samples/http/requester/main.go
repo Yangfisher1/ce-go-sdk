@@ -14,8 +14,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/kelseyhightower/envconfig"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	cehttp "github.com/cloudevents/sdk-go/v2/protocol/http"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	cehttp "github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
 )
 
 const (
@@ -60,7 +60,7 @@ func main() {
 				event := cloudevents.NewEvent()
 				event.SetID(uuid.New().String())
 				event.SetType("com.cloudevents.sample.sent")
-				event.SetSource("https://github.com/cloudevents/sdk-go/v2/samples/requester")
+				event.SetSource("https://github.com/Yangfisher1/ce-go-sdk/v2/samples/requester")
 
 				// Set data
 				message := fmt.Sprintf("Sending message with content-type '%s' and encoding '%s'", contentType, encoding.String())

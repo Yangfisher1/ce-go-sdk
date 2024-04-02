@@ -13,8 +13,8 @@ import (
 
 	"github.com/kelseyhightower/envconfig"
 
-	cloudeventsjsm "github.com/cloudevents/sdk-go/protocol/nats_jetstream/v2"
-	cloudeventshttp "github.com/cloudevents/sdk-go/v2/protocol/http"
+	cloudeventsjsm "github.com/Yangfisher1/ce-go-sdk/protocol/nats_jetstream/v2"
+	cloudeventshttp "github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
 )
 
 type envConfig struct {

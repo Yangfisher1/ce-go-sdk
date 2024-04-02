@@ -15,11 +15,11 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.4.0"
 	"go.opentelemetry.io/otel/trace"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/observability"
-	"github.com/cloudevents/sdk-go/v2/protocol"
-	cehttp "github.com/cloudevents/sdk-go/v2/protocol/http"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/observability"
+	"github.com/Yangfisher1/ce-go-sdk/v2/protocol"
+	cehttp "github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
 )
 
 // OTelObservabilityService implements the ObservabilityService interface from cloudevents
@@ -206,7 +206,7 @@ func getFuncName() string {
 	frames := runtime.CallersFrames(pc[:n])
 	frame, _ := frames.Next()
 
-	// frame.Function should be github.com/cloudevents/sdk-go/observability/opentelemetry/v2/client.OTelObservabilityService.Func
+	// frame.Function should be github.com/Yangfisher1/ce-go-sdk/observability/opentelemetry/v2/client.OTelObservabilityService.Func
 	parts := strings.Split(frame.Function, ".")
 
 	// we are interested in the function name

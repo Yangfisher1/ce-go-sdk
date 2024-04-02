@@ -9,8 +9,8 @@ import (
 	"context"
 	"log"
 
-	_ "github.com/cloudevents/sdk-go/binding/format/protobuf/v2"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	_ "github.com/Yangfisher1/ce-go-sdk/binding/format/protobuf/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 )
 
 func main() {

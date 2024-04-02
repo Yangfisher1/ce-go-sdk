@@ -5,7 +5,7 @@
 
 package v2
 
-import cloudevents "github.com/cloudevents/sdk-go/v2"
+import cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 
 // Expression represents a parsed CloudEvents SQL Expression.
 type Expression interface {

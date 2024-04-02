@@ -9,7 +9,7 @@ Note: this package is a work in progress, APIs might break in future releases.
 To start using it:
 
 ```go
-import cesqlparser "github.com/cloudevents/sdk-go/sql/v2/parser"
+import cesqlparser "github.com/Yangfisher1/ce-go-sdk/sql/v2/parser"
 
 // Parse the expression
 expression, err := cesqlparser.Parse("subject = 'Hello world'")

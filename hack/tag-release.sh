@@ -32,23 +32,23 @@ MODULES=(
 )
 
 REPOINT=(
-  "github.com/cloudevents/sdk-go/v2"
+  "github.com/Yangfisher1/ce-go-sdk/v2"
 )
 
 # TODO: we could do this dynamically in the future.
 REPOINT_SAMPLES=(
-  "github.com/cloudevents/sdk-go/protocol/amqp/v2"
-  "github.com/cloudevents/sdk-go/protocol/stan/v2"
-  "github.com/cloudevents/sdk-go/protocol/nats/v2"
-  "github.com/cloudevents/sdk-go/protocol/nats_jetstream/v2"
-  "github.com/cloudevents/sdk-go/protocol/pubsub/v2"
-  "github.com/cloudevents/sdk-go/protocol/kafka_sarama/v2"
-  "github.com/cloudevents/sdk-go/protocol/ws/v2"
-  "github.com/cloudevents/sdk-go/observability/opencensus/v2"
-  "github.com/cloudevents/sdk-go/observability/opentelemetry/v2"
-  "github.com/cloudevents/sdk-go/sql/v2"
-  "github.com/cloudevents/sdk-go/binding/format/protobuf/v2"
-  "github.com/cloudevents/sdk-go/v2"                       # NOTE: this needs to be last.
+  "github.com/Yangfisher1/ce-go-sdk/protocol/amqp/v2"
+  "github.com/Yangfisher1/ce-go-sdk/protocol/stan/v2"
+  "github.com/Yangfisher1/ce-go-sdk/protocol/nats/v2"
+  "github.com/Yangfisher1/ce-go-sdk/protocol/nats_jetstream/v2"
+  "github.com/Yangfisher1/ce-go-sdk/protocol/pubsub/v2"
+  "github.com/Yangfisher1/ce-go-sdk/protocol/kafka_sarama/v2"
+  "github.com/Yangfisher1/ce-go-sdk/protocol/ws/v2"
+  "github.com/Yangfisher1/ce-go-sdk/observability/opencensus/v2"
+  "github.com/Yangfisher1/ce-go-sdk/observability/opentelemetry/v2"
+  "github.com/Yangfisher1/ce-go-sdk/sql/v2"
+  "github.com/Yangfisher1/ce-go-sdk/binding/format/protobuf/v2"
+  "github.com/Yangfisher1/ce-go-sdk/v2"                       # NOTE: this needs to be last.
 )
 
 # Pick one:

@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 )
 
 func TestClientReceiver_Status_Codes(t *testing.T) {

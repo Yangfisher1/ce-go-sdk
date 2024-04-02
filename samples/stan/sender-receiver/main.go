@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"log"
 
-	cestan "github.com/cloudevents/sdk-go/protocol/stan/v2"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cestan "github.com/Yangfisher1/ce-go-sdk/protocol/stan/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 )
 
 func main() {
@@ -43,7 +43,7 @@ func main() {
 	for i := 0; i < 10; i++ {
 		e := cloudevents.NewEvent()
 		e.SetType("com.cloudevents.sample.sent")
-		e.SetSource("https://github.com/cloudevents/sdk-go/v2/samples/stan/sender_and_receiver")
+		e.SetSource("https://github.com/Yangfisher1/ce-go-sdk/v2/samples/stan/sender_and_receiver")
 		_ = e.SetData(cloudevents.ApplicationJSON, map[string]interface{}{
 			"id":      i,
 			"message": "Hello, World!",

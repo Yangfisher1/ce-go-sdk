@@ -7,13 +7,14 @@ package http
 
 import (
 	"fmt"
-	"github.com/cloudevents/sdk-go/v2/client"
 	"net/http"
 	"testing"
 	"time"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/types"
+	"github.com/Yangfisher1/ce-go-sdk/v2/client"
+
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	"github.com/Yangfisher1/ce-go-sdk/v2/types"
 )
 
 func TestSenderReceiver_binary_v1(t *testing.T) {

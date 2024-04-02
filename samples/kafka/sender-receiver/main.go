@@ -13,8 +13,8 @@ import (
 
 	"github.com/Shopify/sarama"
 
-	"github.com/cloudevents/sdk-go/protocol/kafka_sarama/v2"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	"github.com/Yangfisher1/ce-go-sdk/protocol/kafka_sarama/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 )
 
 const (
@@ -62,7 +62,7 @@ func main() {
 	for i := 0; i < count; i++ {
 		e := cloudevents.NewEvent()
 		e.SetType("com.cloudevents.sample.sent")
-		e.SetSource("https://github.com/cloudevents/sdk-go/v2/samples/httpb/requester")
+		e.SetSource("https://github.com/Yangfisher1/ce-go-sdk/v2/samples/httpb/requester")
 		_ = e.SetData(cloudevents.ApplicationJSON, map[string]interface{}{
 			"id":      i,
 			"message": "Hello, World!",

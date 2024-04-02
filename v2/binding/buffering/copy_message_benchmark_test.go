@@ -9,8 +9,8 @@ import (
 	"context"
 	"testing"
 
-	. "github.com/cloudevents/sdk-go/v2/binding/test"
-	. "github.com/cloudevents/sdk-go/v2/test"
+	. "github.com/Yangfisher1/ce-go-sdk/v2/binding/test"
+	. "github.com/Yangfisher1/ce-go-sdk/v2/test"
 )
 
 var err error

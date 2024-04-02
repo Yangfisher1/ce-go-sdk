@@ -11,11 +11,11 @@ import (
 	"github.com/Shopify/sarama"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cloudevents/sdk-go/protocol/kafka_sarama/v2"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/binding/format"
-	"github.com/cloudevents/sdk-go/v2/test"
+	"github.com/Yangfisher1/ce-go-sdk/protocol/kafka_sarama/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding/format"
+	"github.com/Yangfisher1/ce-go-sdk/v2/test"
 )
 
 var (

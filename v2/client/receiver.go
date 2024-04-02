@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/cloudevents/sdk-go/v2/event"
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/v2/protocol"
 )
 
 // ReceiveFull is the signature of a fn to be invoked for incoming cloudevents.
@@ -57,7 +57,6 @@ var (
 // * func(event.Event) (*event.Event, protocol.Result)
 // * func(context.Context, event.Event) *event.Event
 // * func(context.Context, event.Event) (*event.Event, protocol.Result)
-//
 func receiver(fn interface{}) (*receiverFn, error) {
 	fnType := reflect.TypeOf(fn)
 	if fnType.Kind() != reflect.Func {

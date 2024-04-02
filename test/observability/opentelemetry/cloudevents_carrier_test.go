@@ -18,9 +18,9 @@ import (
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 	"go.opentelemetry.io/otel/trace"
 
-	otelObs "github.com/cloudevents/sdk-go/observability/opentelemetry/v2/client"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/extensions"
+	otelObs "github.com/Yangfisher1/ce-go-sdk/observability/opentelemetry/v2/client"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	"github.com/Yangfisher1/ce-go-sdk/v2/extensions"
 )
 
 var (

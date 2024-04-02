@@ -9,9 +9,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cloudevents/sdk-go/protocol/kafka_sarama/v2"
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/protocol/kafka_sarama/v2"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
 )
 
 // Avoid DCE

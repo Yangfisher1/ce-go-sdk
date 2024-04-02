@@ -12,8 +12,8 @@ import (
 
 	"github.com/kelseyhightower/envconfig"
 
-	cejsm "github.com/cloudevents/sdk-go/protocol/nats_jetstream/v2"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cejsm "github.com/Yangfisher1/ce-go-sdk/protocol/nats_jetstream/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 )
 
 type envConfig struct {

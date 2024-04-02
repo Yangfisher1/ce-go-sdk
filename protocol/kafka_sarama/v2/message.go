@@ -10,9 +10,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/binding/format"
-	"github.com/cloudevents/sdk-go/v2/binding/spec"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding/format"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding/spec"
 
 	"github.com/Shopify/sarama"
 )

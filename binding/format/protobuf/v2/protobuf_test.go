@@ -12,11 +12,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cloudevents/sdk-go/v2/event"
-	"github.com/cloudevents/sdk-go/v2/types"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/v2/types"
 
-	format "github.com/cloudevents/sdk-go/binding/format/protobuf/v2"
-	pb "github.com/cloudevents/sdk-go/binding/format/protobuf/v2/internal/pb"
+	format "github.com/Yangfisher1/ce-go-sdk/binding/format/protobuf/v2"
+	pb "github.com/Yangfisher1/ce-go-sdk/binding/format/protobuf/v2/internal/pb"
 )
 
 func TestProtobufFormatWithoutProtobufCodec(t *testing.T) {

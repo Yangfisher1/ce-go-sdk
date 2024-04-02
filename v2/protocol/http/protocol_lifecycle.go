@@ -12,7 +12,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/Yangfisher1/ce-go-sdk/v2/protocol"
 )
 
 var _ protocol.Opener = (*Protocol)(nil)

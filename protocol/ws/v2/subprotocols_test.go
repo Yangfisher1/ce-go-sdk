@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"nhooyr.io/websocket"
 
-	"github.com/cloudevents/sdk-go/v2/binding/format"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding/format"
 )
 
 func TestResolveFormat(t *testing.T) {

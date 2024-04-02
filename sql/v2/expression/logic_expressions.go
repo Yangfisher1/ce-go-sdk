@@ -6,9 +6,9 @@
 package expression
 
 import (
-	cesql "github.com/cloudevents/sdk-go/sql/v2"
-	"github.com/cloudevents/sdk-go/sql/v2/utils"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cesql "github.com/Yangfisher1/ce-go-sdk/sql/v2"
+	"github.com/Yangfisher1/ce-go-sdk/sql/v2/utils"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 )
 
 type logicExpression struct {

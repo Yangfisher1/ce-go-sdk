@@ -13,10 +13,10 @@ import (
 	"strconv"
 	"testing"
 
-	cehttp "github.com/cloudevents/sdk-go/v2/protocol/http"
+	cehttp "github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/client"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	"github.com/Yangfisher1/ce-go-sdk/v2/client"
 	"github.com/stretchr/testify/require"
 )
 

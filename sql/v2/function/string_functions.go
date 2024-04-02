@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"strings"
 
-	cesql "github.com/cloudevents/sdk-go/sql/v2"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cesql "github.com/Yangfisher1/ce-go-sdk/sql/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 )
 
 var LengthFunction function = function{

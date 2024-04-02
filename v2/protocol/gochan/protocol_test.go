@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"
 )

@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudevents/sdk-go/v2/event"
-	"github.com/cloudevents/sdk-go/v2/types"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/v2/types"
 )
 
 var Event event.Event

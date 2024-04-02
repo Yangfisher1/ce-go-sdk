@@ -9,7 +9,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
 )
 
 // Option is the function signature required to be considered an client.Option.

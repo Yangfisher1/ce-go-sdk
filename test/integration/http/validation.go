@@ -15,7 +15,7 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/stretchr/testify/require"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 )
 
 var (

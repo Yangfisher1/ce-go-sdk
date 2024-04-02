@@ -8,7 +8,7 @@ package event_test
 import (
 	"testing"
 
-	"github.com/cloudevents/sdk-go/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
 
 	"github.com/google/go-cmp/cmp"
 )

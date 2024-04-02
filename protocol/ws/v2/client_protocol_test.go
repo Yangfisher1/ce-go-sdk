@@ -16,10 +16,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"nhooyr.io/websocket"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/client"
-	. "github.com/cloudevents/sdk-go/v2/test"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/client"
+	. "github.com/Yangfisher1/ce-go-sdk/v2/test"
 )
 
 func pingEvent() cloudevents.Event {

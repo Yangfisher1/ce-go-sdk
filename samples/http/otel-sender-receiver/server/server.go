@@ -15,12 +15,12 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	otelObs "github.com/cloudevents/sdk-go/observability/opentelemetry/v2/client"
-	"github.com/cloudevents/sdk-go/samples/http/otel-sender-receiver/instrumentation"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	ceclient "github.com/cloudevents/sdk-go/v2/client"
-	"github.com/cloudevents/sdk-go/v2/protocol"
-	cehttp "github.com/cloudevents/sdk-go/v2/protocol/http"
+	otelObs "github.com/Yangfisher1/ce-go-sdk/observability/opentelemetry/v2/client"
+	"github.com/Yangfisher1/ce-go-sdk/samples/http/otel-sender-receiver/instrumentation"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	ceclient "github.com/Yangfisher1/ce-go-sdk/v2/client"
+	"github.com/Yangfisher1/ce-go-sdk/v2/protocol"
+	cehttp "github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
 )
 
 var tracer trace.Tracer

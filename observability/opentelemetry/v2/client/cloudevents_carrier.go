@@ -8,9 +8,9 @@ package client
 import (
 	"context"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	cecontext "github.com/cloudevents/sdk-go/v2/context"
-	"github.com/cloudevents/sdk-go/v2/extensions"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	cecontext "github.com/Yangfisher1/ce-go-sdk/v2/context"
+	"github.com/Yangfisher1/ce-go-sdk/v2/extensions"
 	"go.opentelemetry.io/otel/propagation"
 )
 

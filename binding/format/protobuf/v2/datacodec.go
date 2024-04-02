@@ -11,7 +11,7 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/cloudevents/sdk-go/v2/event/datacodec"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event/datacodec"
 )
 
 const (

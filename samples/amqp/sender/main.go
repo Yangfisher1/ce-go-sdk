@@ -16,8 +16,8 @@ import (
 	"github.com/Azure/go-amqp"
 	"github.com/google/uuid"
 
-	ceamqp "github.com/cloudevents/sdk-go/protocol/amqp/v2"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	ceamqp "github.com/Yangfisher1/ce-go-sdk/protocol/amqp/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 )
 
 const (
@@ -68,7 +68,7 @@ func main() {
 	for i := 0; i < count; i++ {
 		event := cloudevents.NewEvent()
 		event.SetID(uuid.New().String())
-		event.SetSource("https://github.com/cloudevents/sdk-go/v2/samples/sender")
+		event.SetSource("https://github.com/Yangfisher1/ce-go-sdk/v2/samples/sender")
 		event.SetTime(time.Now())
 		event.SetType("com.cloudevents.sample.sent")
 

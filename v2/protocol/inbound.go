@@ -8,7 +8,7 @@ package protocol
 import (
 	"context"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
 )
 
 // Receiver receives messages.

@@ -9,9 +9,9 @@ import (
 	"context"
 	"log"
 
-	pbcloudevents "github.com/cloudevents/sdk-go/binding/format/protobuf/v2"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	cehttp "github.com/cloudevents/sdk-go/v2/protocol/http"
+	pbcloudevents "github.com/Yangfisher1/ce-go-sdk/binding/format/protobuf/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	cehttp "github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
 )
 
 func main() {
@@ -31,7 +31,7 @@ func main() {
 		data := &Sample{Value: "sample"}
 		e := cloudevents.NewEvent()
 		e.SetType("com.cloudevents.sample.sent")
-		e.SetSource("https://github.com/cloudevents/sdk-go/v2/samples/http/sender-protobuf")
+		e.SetSource("https://github.com/Yangfisher1/ce-go-sdk/v2/samples/http/sender-protobuf")
 		e.SetDataSchema("my-schema-registry://" + string(data.ProtoReflect().Descriptor().FullName()))
 		_ = e.SetData(pbcloudevents.ContentTypeProtobuf, data)
 

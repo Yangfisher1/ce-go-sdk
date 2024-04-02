@@ -11,8 +11,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	cews "github.com/cloudevents/sdk-go/protocol/ws/v2"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cews "github.com/Yangfisher1/ce-go-sdk/protocol/ws/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 )
 
 func main() {
@@ -33,7 +33,7 @@ func main() {
 		for i := 0; i < 10; i++ {
 			e := cloudevents.NewEvent()
 			e.SetType("com.cloudevents.sample.sent")
-			e.SetSource("https://github.com/cloudevents/sdk-go/v2/samples/stan/sender")
+			e.SetSource("https://github.com/Yangfisher1/ce-go-sdk/v2/samples/stan/sender")
 			_ = e.SetData(cloudevents.ApplicationJSON, map[string]interface{}{
 				"id":      i,
 				"message": "Hello, World!",

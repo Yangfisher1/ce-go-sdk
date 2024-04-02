@@ -1,4 +1,4 @@
-module github.com/cloudevents/sdk-go/tools
+module github.com/Yangfisher1/ce-go-sdk/tools
 
 go 1.14
 

@@ -6,9 +6,9 @@
 package transformer
 
 import (
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/binding/spec"
-	"github.com/cloudevents/sdk-go/v2/types"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding/spec"
+	"github.com/Yangfisher1/ce-go-sdk/v2/types"
 )
 
 // AddAttribute adds a cloudevents attribute (if missing) during the encoding process

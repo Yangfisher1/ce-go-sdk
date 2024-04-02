@@ -1,9 +1,9 @@
 # Go SDK for [CloudEvents](https://github.com/cloudevents/spec)
 
-[![go-doc](https://godoc.org/github.com/cloudevents/sdk-go?status.svg)](https://godoc.org/github.com/cloudevents/sdk-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/cloudevents/sdk-go)](https://goreportcard.com/report/github.com/cloudevents/sdk-go)
-[![Releases](https://img.shields.io/github/release-pre/cloudevents/sdk-go.svg)](https://github.com/cloudevents/sdk-go/releases)
-[![LICENSE](https://img.shields.io/github/license/cloudevents/sdk-go.svg)](https://github.com/cloudevents/sdk-go/blob/main/LICENSE)
+[![go-doc](https://godoc.org/github.com/Yangfisher1/ce-go-sdk?status.svg)](https://godoc.org/github.com/Yangfisher1/ce-go-sdk)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Yangfisher1/ce-go-sdk)](https://goreportcard.com/report/github.com/Yangfisher1/ce-go-sdk)
+[![Releases](https://img.shields.io/github/release-pre/cloudevents/sdk-go.svg)](https://github.com/Yangfisher1/ce-go-sdk/releases)
+[![LICENSE](https://img.shields.io/github/license/cloudevents/sdk-go.svg)](https://github.com/Yangfisher1/ce-go-sdk/blob/main/LICENSE)
 
 Official CloudEvents SDK to integrate your application with CloudEvents.
 
@@ -27,13 +27,13 @@ _Note:_ Supported go version: 1.14+
 Add the module as dependency using go mod:
 
 ```shell
-go get github.com/cloudevents/sdk-go/v2@v2.6.0
+go get github.com/Yangfisher1/ce-go-sdk/v2@v2.6.0
 ```
 
 And import the module in your code
 
 ```go
-import cloudevents "github.com/cloudevents/sdk-go/v2"
+import cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 ```
 
 ## Send your first CloudEvent
@@ -108,7 +108,7 @@ err := json.Unmarshal(bytes, &event)
 ## Go further
 
 - Look at the complete documentation: https://cloudevents.github.io/sdk-go/
-- Dig into the godoc: https://godoc.org/github.com/cloudevents/sdk-go/v2
+- Dig into the godoc: https://godoc.org/github.com/Yangfisher1/ce-go-sdk/v2
 - Check out the [samples directory](./samples) for an extended list of examples
   showing the different SDK features
 

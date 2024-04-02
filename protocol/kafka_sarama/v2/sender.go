@@ -10,7 +10,7 @@ import (
 
 	"github.com/Shopify/sarama"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
 )
 
 // Sender implements binding.Sender that sends messages to a specific receiverTopic using sarama.SyncProducer

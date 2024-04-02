@@ -17,12 +17,12 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.4.0"
 	"go.opentelemetry.io/otel/trace"
 
-	otelObs "github.com/cloudevents/sdk-go/observability/opentelemetry/v2/client"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	event "github.com/cloudevents/sdk-go/v2/event"
-	"github.com/cloudevents/sdk-go/v2/extensions"
-	"github.com/cloudevents/sdk-go/v2/protocol"
-	"github.com/cloudevents/sdk-go/v2/protocol/http"
+	otelObs "github.com/Yangfisher1/ce-go-sdk/observability/opentelemetry/v2/client"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	event "github.com/Yangfisher1/ce-go-sdk/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/v2/extensions"
+	"github.com/Yangfisher1/ce-go-sdk/v2/protocol"
+	"github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
 )
 
 var (

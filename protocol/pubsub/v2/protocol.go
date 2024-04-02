@@ -12,10 +12,10 @@ import (
 	"sync"
 
 	"cloud.google.com/go/pubsub"
-	"github.com/cloudevents/sdk-go/protocol/pubsub/v2/internal"
-	"github.com/cloudevents/sdk-go/v2/binding"
-	cecontext "github.com/cloudevents/sdk-go/v2/context"
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/Yangfisher1/ce-go-sdk/protocol/pubsub/v2/internal"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	cecontext "github.com/Yangfisher1/ce-go-sdk/v2/context"
+	"github.com/Yangfisher1/ce-go-sdk/v2/protocol"
 	"golang.org/x/sync/errgroup"
 )
 

@@ -1,23 +1,23 @@
-module github.com/cloudevents/sdk-go/test/conformance
+module github.com/Yangfisher1/ce-go-sdk/test/conformance
 
 go 1.14
 
-replace github.com/cloudevents/sdk-go/v2 => ../../v2
+replace github.com/Yangfisher1/ce-go-sdk/v2 => ../../v2
 
-replace github.com/cloudevents/sdk-go/protocol/pubsub/v2 => ../../protocol/pubsub/v2
+replace github.com/Yangfisher1/ce-go-sdk/protocol/pubsub/v2 => ../../protocol/pubsub/v2
 
-replace github.com/cloudevents/sdk-go/protocol/amqp/v2 => ../../protocol/amqp/v2
+replace github.com/Yangfisher1/ce-go-sdk/protocol/amqp/v2 => ../../protocol/amqp/v2
 
-replace github.com/cloudevents/sdk-go/protocol/stan/v2 => ../../protocol/stan/v2
+replace github.com/Yangfisher1/ce-go-sdk/protocol/stan/v2 => ../../protocol/stan/v2
 
-replace github.com/cloudevents/sdk-go/protocol/nats/v2 => ../../protocol/nats/v2
+replace github.com/Yangfisher1/ce-go-sdk/protocol/nats/v2 => ../../protocol/nats/v2
 
-replace github.com/cloudevents/sdk-go/protocol/kafka_sarama/v2 => ../../protocol/kafka_sarama/v2
+replace github.com/Yangfisher1/ce-go-sdk/protocol/kafka_sarama/v2 => ../../protocol/kafka_sarama/v2
 
 require (
 	github.com/Shopify/sarama v1.25.0
-	github.com/cloudevents/sdk-go/protocol/kafka_sarama/v2 v2.5.0
-	github.com/cloudevents/sdk-go/v2 v2.5.0
+	github.com/Yangfisher1/ce-go-sdk/protocol/kafka_sarama/v2 v2.5.0
+	github.com/Yangfisher1/ce-go-sdk/v2 v2.5.0
 	github.com/cucumber/godog v0.9.0
 	github.com/cucumber/messages-go/v10 v10.0.3
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect

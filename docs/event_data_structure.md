@@ -36,14 +36,14 @@ err := ev.Context.SetExtension("aaa", "hello_world")
 ```
 
 Attributes and extensions are represented internally using wrapper types from
-[`types` module](https://github.com/cloudevents/sdk-go/tree/main/v2/types).
+[`types` module](https://github.com/Yangfisher1/ce-go-sdk/tree/main/v2/types).
 
 ## Writing/Reading the data field
 
 To write the `data` field in your `Event`, use `Event.SetData()`. This method
 accepts both the content type and the payload. If the payload is a `[]byte`,
 then no encoding will be made, otherwise the
-[`datacodec` module](https://github.com/cloudevents/sdk-go/tree/main/v2/event/datacodec)
+[`datacodec` module](https://github.com/Yangfisher1/ce-go-sdk/tree/main/v2/event/datacodec)
 will be used to encode the payload.
 
 You can read the `data` or accessing directly to the underlying `[]byte` using
@@ -52,9 +52,9 @@ You can read the `data` or accessing directly to the underlying `[]byte` using
 
 Some formats have built-in support in `datacodec`, like `application/xml`,
 `application/json` and `text/plain`. You can use your own encoding implementing
-[`datacodec.Encoder` and `datacodec.Decoder`](https://github.com/cloudevents/sdk-go/tree/main/v2/event/datacodec/codec.go)
+[`datacodec.Encoder` and `datacodec.Decoder`](https://github.com/Yangfisher1/ce-go-sdk/tree/main/v2/event/datacodec/codec.go)
 and registering it with
-[`datacodec.AddEncoder` and `datacodec.AddDecoder`](https://github.com/cloudevents/sdk-go/tree/main/v2/event/datacodec/codec.go)
+[`datacodec.AddEncoder` and `datacodec.AddDecoder`](https://github.com/Yangfisher1/ce-go-sdk/tree/main/v2/event/datacodec/codec.go)
 
 ## Marshal/Unmarshal event to JSON
 

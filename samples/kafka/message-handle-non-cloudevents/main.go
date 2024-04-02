@@ -14,12 +14,12 @@ import (
 	"github.com/Shopify/sarama"
 	"github.com/google/uuid"
 
-	"github.com/cloudevents/sdk-go/protocol/kafka_sarama/v2"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/protocol/kafka_sarama/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
 )
 
-// In order to run this test, look at documentation in https://github.com/cloudevents/sdk-go/blob/master/v2/samples/kafka/README.md
+// In order to run this test, look at documentation in https://github.com/Yangfisher1/ce-go-sdk/blob/master/v2/samples/kafka/README.md
 func main() {
 	saramaConfig := sarama.NewConfig()
 	saramaConfig.Version = sarama.V2_0_0_0
@@ -64,7 +64,7 @@ func main() {
 				event.SetID(uuid.New().String())
 				event.SetTime(time.Now())
 				event.SetType("generated.examples")
-				event.SetSource("https://github.com/cloudevents/sdk-go/v2/samples/kafka/sender")
+				event.SetSource("https://github.com/Yangfisher1/ce-go-sdk/v2/samples/kafka/sender")
 
 				err = event.SetData(kafkaMessage.ContentType, kafkaMessage.Value)
 				if err != nil {

@@ -11,7 +11,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cloudevents/sdk-go/v2/types"
+	"github.com/Yangfisher1/ce-go-sdk/v2/types"
 )
 
 // WIP: AS OF SEP 20, 2019

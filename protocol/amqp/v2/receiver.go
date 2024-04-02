@@ -12,8 +12,8 @@ import (
 
 	"github.com/Azure/go-amqp"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/protocol"
 )
 
 const serverDown = "session ended by server"

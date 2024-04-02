@@ -7,11 +7,12 @@ package stan
 
 import (
 	"context"
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/nats-io/stan.go"
-	"github.com/nats-io/stan.go/pb"
 	"reflect"
 	"testing"
+
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/nats-io/stan.go"
+	"github.com/nats-io/stan.go/pb"
 )
 
 func TestMetadataContextDecorator(t *testing.T) {

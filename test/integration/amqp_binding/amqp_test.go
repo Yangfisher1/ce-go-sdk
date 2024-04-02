@@ -17,14 +17,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	protocolamqp "github.com/cloudevents/sdk-go/protocol/amqp/v2"
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/event"
-	bindings "github.com/cloudevents/sdk-go/v2/protocol"
-	"github.com/cloudevents/sdk-go/v2/protocol/test"
+	protocolamqp "github.com/Yangfisher1/ce-go-sdk/protocol/amqp/v2"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
+	bindings "github.com/Yangfisher1/ce-go-sdk/v2/protocol"
+	"github.com/Yangfisher1/ce-go-sdk/v2/protocol/test"
 
-	. "github.com/cloudevents/sdk-go/v2/binding/test"
-	. "github.com/cloudevents/sdk-go/v2/test"
+	. "github.com/Yangfisher1/ce-go-sdk/v2/binding/test"
+	. "github.com/Yangfisher1/ce-go-sdk/v2/test"
 )
 
 func TestSendSkipBinary(t *testing.T) {

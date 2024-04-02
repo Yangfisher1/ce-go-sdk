@@ -6,9 +6,9 @@
 package client
 
 import (
-	obshttp "github.com/cloudevents/sdk-go/observability/opentelemetry/v2/http"
-	"github.com/cloudevents/sdk-go/v2/client"
-	cehttp "github.com/cloudevents/sdk-go/v2/protocol/http"
+	obshttp "github.com/Yangfisher1/ce-go-sdk/observability/opentelemetry/v2/http"
+	"github.com/Yangfisher1/ce-go-sdk/v2/client"
+	cehttp "github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
 )
 
 // NewClientHTTP produces a new client instrumented with OpenTelemetry.

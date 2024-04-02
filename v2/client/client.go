@@ -15,10 +15,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	cecontext "github.com/cloudevents/sdk-go/v2/context"
-	"github.com/cloudevents/sdk-go/v2/event"
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	cecontext "github.com/Yangfisher1/ce-go-sdk/v2/context"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
+	"github.com/Yangfisher1/ce-go-sdk/v2/protocol"
 )
 
 // Client interface defines the runtime contract the CloudEvents client supports.

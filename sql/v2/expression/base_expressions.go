@@ -5,7 +5,7 @@
 
 package expression
 
-import cesql "github.com/cloudevents/sdk-go/sql/v2"
+import cesql "github.com/Yangfisher1/ce-go-sdk/sql/v2"
 
 type baseUnaryExpression struct {
 	child cesql.Expression

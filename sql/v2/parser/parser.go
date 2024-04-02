@@ -12,8 +12,8 @@ import (
 
 	"github.com/antlr/antlr4/runtime/Go/antlr"
 
-	"github.com/cloudevents/sdk-go/sql/v2"
-	"github.com/cloudevents/sdk-go/sql/v2/gen"
+	v2 "github.com/Yangfisher1/ce-go-sdk/sql/v2"
+	"github.com/Yangfisher1/ce-go-sdk/sql/v2/gen"
 )
 
 type Parser struct {

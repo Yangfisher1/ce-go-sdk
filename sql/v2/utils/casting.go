@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	cesql "github.com/cloudevents/sdk-go/sql/v2"
+	cesql "github.com/Yangfisher1/ce-go-sdk/sql/v2"
 )
 
 func Cast(val interface{}, target cesql.Type) (interface{}, error) {

@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudevents/sdk-go/v2/client"
+	"github.com/Yangfisher1/ce-go-sdk/v2/client"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 )
 
 func TestClientLoopback_binary_v03tov03(t *testing.T) {

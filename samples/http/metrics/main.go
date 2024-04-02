@@ -19,11 +19,11 @@ import (
 	"go.opencensus.io/trace"
 	"go.opencensus.io/zpages"
 
-	obsclient "github.com/cloudevents/sdk-go/observability/opencensus/v2/client"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/client"
-	cecontext "github.com/cloudevents/sdk-go/v2/context"
-	"github.com/cloudevents/sdk-go/v2/event"
+	obsclient "github.com/Yangfisher1/ce-go-sdk/observability/opencensus/v2/client"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	"github.com/Yangfisher1/ce-go-sdk/v2/client"
+	cecontext "github.com/Yangfisher1/ce-go-sdk/v2/context"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event"
 )
 
 func main() {
@@ -71,7 +71,7 @@ func mainSender() {
 		for i := 0; i < 1000; i++ {
 			e := cloudevents.NewEvent()
 			e.SetType("com.cloudevents.sample.sent")
-			e.SetSource("https://github.com/cloudevents/sdk-go/v2/samples/sender")
+			e.SetSource("https://github.com/Yangfisher1/ce-go-sdk/v2/samples/sender")
 			_ = e.SetData(cloudevents.ApplicationJSON, &Example{
 				Sequence: i,
 				Message:  "Hello, World!",

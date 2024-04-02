@@ -20,7 +20,7 @@ local development environment. Then add this repository as the upstream.
 ```console
 git clone https://github.com/mygithuborg/sdk-go.git
 cd sdk-go
-git remote add upstream https://github.com/cloudevents/sdk-go.git
+git remote add upstream https://github.com/Yangfisher1/ce-go-sdk.git
 ```
 
 ## Branches
@@ -29,7 +29,7 @@ The first thing you'll need to do is create a branch for your work.
 If you are submitting a pull request that fixes or relates to an existing
 GitHub issue, you can use this in your branch name to keep things organized.
 For example, if you were to create a pull request to fix
-[this error with validation](https://github.com/cloudevents/sdk-go/issues/486)
+[this error with validation](https://github.com/Yangfisher1/ce-go-sdk/issues/486)
 you might create a branch named `486-fix-if-present-validation`.
 
 ```console

@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"log"
 
-	cestan "github.com/cloudevents/sdk-go/protocol/stan/v2"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cestan "github.com/Yangfisher1/ce-go-sdk/protocol/stan/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 )
 
 func main() {

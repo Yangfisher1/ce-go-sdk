@@ -15,10 +15,10 @@ import (
 
 	"nhooyr.io/websocket"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/binding/format"
-	"github.com/cloudevents/sdk-go/v2/binding/utils"
-	"github.com/cloudevents/sdk-go/v2/protocol"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding/format"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding/utils"
+	"github.com/Yangfisher1/ce-go-sdk/v2/protocol"
 )
 
 // ClientProtocol implements protocol.Receiver, protocol.Sender and protocol.Closer.

@@ -5,7 +5,7 @@
 
 package v2
 
-import cloudevents "github.com/cloudevents/sdk-go/v2"
+import cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 
 type Function interface {
 	Name() string

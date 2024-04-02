@@ -8,10 +8,11 @@ package stan
 import (
 	"context"
 	"fmt"
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/nats-io/stan.go"
 	"io"
 	"sync"
+
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/nats-io/stan.go"
 )
 
 type msgErr struct {

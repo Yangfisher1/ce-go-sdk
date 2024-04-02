@@ -7,10 +7,11 @@ package client
 
 import (
 	"context"
-	cecontext "github.com/cloudevents/sdk-go/v2/context"
-	thttp "github.com/cloudevents/sdk-go/v2/protocol/http"
-	"go.uber.org/zap"
 	"net/http"
+
+	cecontext "github.com/Yangfisher1/ce-go-sdk/v2/context"
+	thttp "github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
+	"go.uber.org/zap"
 )
 
 func NewHTTPReceiveHandler(ctx context.Context, p *thttp.Protocol, fn interface{}) (*EventReceiver, error) {

@@ -1,6 +1,6 @@
 # E2E Benchmark to compare HTTP binding & HTTP transport
 
-This benchmark aims to provide a comparison between package `github.com/cloudevents/sdk-go/pkg/bindings/http` and `github.com/cloudevents/sdk-go/pkg/cloudevents/transport/http`
+This benchmark aims to provide a comparison between package `github.com/Yangfisher1/ce-go-sdk/pkg/bindings/http` and `github.com/Yangfisher1/ce-go-sdk/pkg/cloudevents/transport/http`
 
 ## Metrics
 

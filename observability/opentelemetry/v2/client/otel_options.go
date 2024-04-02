@@ -8,13 +8,13 @@ package client
 import (
 	"go.opentelemetry.io/otel/attribute"
 
-	cloudevents "github.com/cloudevents/sdk-go/v2"
-	"github.com/cloudevents/sdk-go/v2/observability"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
+	"github.com/Yangfisher1/ce-go-sdk/v2/observability"
 )
 
 const (
 	// The value for the `otel.library.name` span attribute
-	instrumentationName = "github.com/cloudevents/sdk-go/observability/opentelemetry/v2"
+	instrumentationName = "github.com/Yangfisher1/ce-go-sdk/observability/opentelemetry/v2"
 )
 
 type OTelObservabilityServiceOption func(*OTelObservabilityService)

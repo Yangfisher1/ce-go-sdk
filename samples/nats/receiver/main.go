@@ -12,8 +12,8 @@ import (
 
 	"github.com/kelseyhightower/envconfig"
 
-	cenats "github.com/cloudevents/sdk-go/protocol/nats/v2"
-	cloudevents "github.com/cloudevents/sdk-go/v2"
+	cenats "github.com/Yangfisher1/ce-go-sdk/protocol/nats/v2"
+	cloudevents "github.com/Yangfisher1/ce-go-sdk/v2"
 )
 
 type envConfig struct {

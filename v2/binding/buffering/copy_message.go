@@ -8,7 +8,7 @@ package buffering
 import (
 	"context"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
 )
 
 // BufferMessage works the same as CopyMessage and it also bounds the original Message

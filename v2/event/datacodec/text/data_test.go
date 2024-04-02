@@ -9,7 +9,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cloudevents/sdk-go/v2/event/datacodec/text"
+	"github.com/Yangfisher1/ce-go-sdk/v2/event/datacodec/text"
 	"github.com/stretchr/testify/assert"
 )
 

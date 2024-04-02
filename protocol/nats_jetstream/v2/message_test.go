@@ -3,11 +3,12 @@ package nats_jetstream
 import (
 	"context"
 	"encoding/json"
-	bindingtest "github.com/cloudevents/sdk-go/v2/binding/test"
 	"testing"
 
-	"github.com/cloudevents/sdk-go/v2/binding"
-	"github.com/cloudevents/sdk-go/v2/test"
+	bindingtest "github.com/Yangfisher1/ce-go-sdk/v2/binding/test"
+
+	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
+	"github.com/Yangfisher1/ce-go-sdk/v2/test"
 	"github.com/nats-io/nats.go"
 )
 

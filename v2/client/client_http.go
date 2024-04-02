@@ -6,7 +6,7 @@
 package client
 
 import (
-	"github.com/cloudevents/sdk-go/v2/protocol/http"
+	"github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
 )
 
 // NewHTTP provides the good defaults for the common case using an HTTP
@@ -31,5 +31,5 @@ func NewHTTP(opts ...http.Option) (Client, error) {
 // NewDefault has been replaced by NewHTTP
 // Deprecated. To get the same as NewDefault provided, please use NewHTTP with
 // the observability service passed as an option, or client.NewClientHTTP from
-// package github.com/cloudevents/sdk-go/observability/opencensus/v2/client
+// package github.com/Yangfisher1/ce-go-sdk/observability/opencensus/v2/client
 var NewDefault = NewHTTP
