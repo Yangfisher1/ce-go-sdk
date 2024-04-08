@@ -4,6 +4,8 @@ github.com/Yangfisher1/ce-go-sdk/v2 v2.0.0-20240402105204-6ba512020ad7 h1:PgCEpI
 github.com/Yangfisher1/ce-go-sdk/v2 v2.0.0-20240402105204-6ba512020ad7/go.mod h1:IgHj1xV+f9cMRa2ChjiS6CsV9A1hOtdUyevx8IAlf1o=
 github.com/Yangfisher1/opencensus-go v0.0.0-20240401075048-32466973f3a6 h1:agRWSNTsDBqyCRhIUROjJVzuV07Qvd4e/WfqIKcUhCk=
 github.com/Yangfisher1/opencensus-go v0.0.0-20240401075048-32466973f3a6/go.mod h1:I4Qckej7B7jTrzIpNkYgUEupyKQgTSuMTuwOvtZ+rPo=
+github.com/Yangfisher1/opencensus-go v0.0.0-20240408110847-3492a36d4eb0 h1:IBqNKoZnn0CFucGT+zDUx4f8V8kfAOUWyWdBTJnfcHs=
+github.com/Yangfisher1/opencensus-go v0.0.0-20240408110847-3492a36d4eb0/go.mod h1:I4Qckej7B7jTrzIpNkYgUEupyKQgTSuMTuwOvtZ+rPo=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod h1:M8M6+tZqaGXZJjfX53e64911xZQV5JYwmTeXPW+k8Sc=
