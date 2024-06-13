@@ -8,8 +8,8 @@ package http
 import (
 	"net/http"
 
-	"go.opencensus.io/plugin/ochttp"
-	"go.opencensus.io/plugin/ochttp/propagation/tracecontext"
+	"github.com/Yangfisher1/opencensus-go/plugin/ochttp"
+	"github.com/Yangfisher1/opencensus-go/plugin/ochttp/propagation/tracecontext"
 
 	cehttp "github.com/Yangfisher1/ce-go-sdk/v2/protocol/http"
 )

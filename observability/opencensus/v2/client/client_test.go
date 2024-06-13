@@ -15,10 +15,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Yangfisher1/opencensus-go/trace"
 	"github.com/lightstep/tracecontext.go/traceparent"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.opencensus.io/trace"
 
 	obshttp "github.com/Yangfisher1/ce-go-sdk/observability/opencensus/v2/http"
 	"github.com/Yangfisher1/ce-go-sdk/v2/binding"
